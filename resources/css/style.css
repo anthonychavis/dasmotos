@@ -103,6 +103,7 @@ img {
     border-radius: 5px;
     transition: scale 500ms ease 100ms;
     max-width: 100%;
+    height: auto;
 }
 img:hover {
     scale: 1.1;
