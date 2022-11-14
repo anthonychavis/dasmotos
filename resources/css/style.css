@@ -47,7 +47,6 @@ body {
     color: black;
     font-weight: var(--norm-wt);
     line-height: 1.5;
-    /* block-size: 100vh; */
     padding: var(--body-pad);
     background-color: var(--body-bg);
     max-inline-size: 100vw;
@@ -87,7 +86,6 @@ h2 {
 }
 section:nth-child(1) h2 {
     background-color: var(--1st-h2-bg);
-    /* background-image: var(--h2-gradient); */
 }
 section:nth-child(2) h2 {
     background-color: var(--2nd-h2-bg);
@@ -98,7 +96,6 @@ section:nth-child(3) h2 {
 
 figure {
     padding-block: var(--fig-pad);
-    /* border: green solid 1px; */
 }
 img {
     border-radius: 5px;
@@ -130,13 +127,10 @@ footer {
     background-color: var(--3rd-h2-bg);
     margin-block-start: 4rem;
     padding-block: 0.5rem;
-    /* clip-path: polygon(11% 0, 89% 0, 91% 100%, 9% 100%); */
     background-image: var(--h2-gradient);
     clip-path: polygon(0 0, 89% 0, 91% 100%, 0% 100%);
 }
 footer p {
-    /* text-align: center; */
-    /* margin-inline: auto; */
     padding-inline-start: var(--body-pad);
     color: var(--body-bg);
 }
