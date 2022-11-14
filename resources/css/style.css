@@ -59,7 +59,6 @@ header {
     background-position: left 10% bottom 8%;
     background-repeat: no-repeat;
     background-size: cover;
-
     padding-block: var(--header-pad);
     padding-inline: var(--header-pad-inline);
     margin-block: var(--header-margin);
@@ -103,6 +102,7 @@ figure {
 img {
     border-radius: 5px;
     transition: scale 500ms ease 100ms;
+    max-width: 100%;
 }
 img:hover {
     scale: 1.1;
