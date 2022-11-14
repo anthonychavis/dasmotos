@@ -55,8 +55,11 @@ body {
 header {
     background-color: darkred;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-        url('../images/pattern.jpeg');
+        url('../images/resized/rsz_rsz_pattern-cut.jpg');
     background-position: left 10% bottom 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding-block: var(--header-pad);
     padding-inline: var(--header-pad-inline);
     margin-block: var(--header-margin);
