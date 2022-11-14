@@ -2,7 +2,6 @@ const imgLazy = document.querySelectorAll('img[data-src]');
 
 const swapImg = (entries, observer) => {
     const [entry] = entries;
-    console.log(entry);
     if (!entry.isIntersecting) return;
 
     // fix for pg refresh w/ lazy el visible, not intersecting
