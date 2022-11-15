@@ -40,6 +40,9 @@
     --body-pad: calc(0.5rem + 0.1vw);
     --fig-pad: calc(1rem + 0.3vh);
     --figcap-pad: 0.7rem;
+
+    /* shape */
+    --bg-shape: polygon(0 0, 89% 0, 91% 100%, 0% 100%);
 }
 
 body {
@@ -83,7 +86,7 @@ h2 {
     font-weight: var(--bold);
     font-size: var(--h2-font-size);
     padding-inline: var(--body-pad);
-    clip-path: polygon(0 0, 89% 0, 91% 100%, 0% 100%);
+    clip-path: var(--bg-shape);
     background-image: var(--h2-gradient);
 }
 section:nth-child(1) h2 {
@@ -135,7 +138,7 @@ footer {
     margin-block-start: 4rem;
     padding-block: 0.5rem;
     background-image: var(--h2-gradient);
-    clip-path: polygon(0 0, 89% 0, 91% 100%, 0% 100%);
+    clip-path: var(--bg-shape);
 }
 footer p {
     padding-inline-start: var(--body-pad);
