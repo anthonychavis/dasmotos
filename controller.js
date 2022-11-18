@@ -24,3 +24,19 @@ const imgObsrv = new IntersectionObserver(swapImg, {
 });
 
 imgLazy.forEach(img => imgObsrv.observe(img));
+
+// cursor
+const cursorFxn = () => {
+    const cursor = document.querySelector('.cursor');
+    if (cursor.style.display === 'none') return;
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute(
+            'style',
+            `inset-block-start: ${e.pageY + 1}px; inset-inline-start: ${
+                e.pageX + 1
+            }px;`
+        );
+    });
+};
+cursorFxn();

@@ -53,6 +53,25 @@ body {
     padding: var(--body-pad);
     background-color: var(--body-bg);
     max-inline-size: 100vw;
+    cursor: default;
+}
+
+.cursor {
+    display: none;
+}
+@media (pointer: fine) {
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    }
+    .cursor {
+        display: inline;
+        position: absolute;
+        color: purple;
+        z-index: 5;
+        font-size: 2rem;
+        transition-duration: 150ms;
+        transition-timing-function: linear;
+    }
 }
 
 header {
