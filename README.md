@@ -21,8 +21,8 @@ I built this web page according to design specs & four images received. I resize
 -   JavaScript - ES6+
 -   CSS3
 -   HTML5
-<!-- -   draw.io -->
 -   VSCode
+<!-- -   draw.io -->
 
 ## Launch
 
